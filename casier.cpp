@@ -1,15 +1,18 @@
 #include <iostream>
+#include <vector>
+#include <string>
 using namespace std;
 
 int main() {
     int totalBelanja = 0;
-    int pilihan, barangDibeli;
+    int pilihan;
+    vector<int> hargaDibeli;
     int daftarharga[5] = {15000, 20000, 5000, 7000, 5000};
     string daftarbarang[5] = {"Kebab", "Pizza", "Es Teh", "Es Jeruk", "Es Cream"};
-    string hargaBarang;
+    vector<string> barangDibeli;
     char konfirmasi, konfirmasi2;
 
-
+do {
     do {
         cout << "================================\n";
         cout << "Selamat datang di Toko Kami!\n";
@@ -32,7 +35,7 @@ int main() {
             }
         
         barangDibeli.push_back(daftarbarang[pilihan - 1]);
-        hargaBarang.push_back(daftarharga[pilihan - 1]);
+        hargaDibeli.push_back(daftarharga[pilihan - 1]);
 
         cout << "================================\n";
         cout << "Anda memilih: " << daftarbarang[pilihan - 1] << "\n";
@@ -46,15 +49,8 @@ int main() {
                 cin.clear();
                 cin.ignore(10000, '\n');
                 cin >> konfirmasi;
-            } while (konfirmasi == 'y' || konfirmasi == 'Y');
-            
-
-
-
-
-// bagian sini ke bawah masih rada pusing, nanti di cek lagi
-// untuk bagian atas hold dulu (udh mayan ok) - blom coba di run
-// bagian ringkasan belanja sama konfirmasi pembayaran masih bingung (antara ada yang harus di gabung atau di pisah aja)
+            } 
+    } while (konfirmasi == 'y' || konfirmasi == 'Y');
         cout << "================================\n";
         cout << "Ringkasan Belanja Anda\n";
         cout << "================================\n";
@@ -75,7 +71,7 @@ int main() {
             }
 
             if (konfirmasi2 == 'y' || konfirmasi2 == 'Y') {
-                cout << "Pembayaran sebesar Rp " << daftarharga[pilihan - 1] << " berhasil.\n";
+                cout << "Pembayaran sebesar Rp " << totalBelanja << " berhasil.\n";
             } else if (konfirmasi2 == 'n' || konfirmasi2 == 'N') {
                 cout << "Transaksi dibatalkan.\n";
             } else {
