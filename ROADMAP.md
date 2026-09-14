@@ -6,10 +6,10 @@ Repository ini berisi catatan perjalanan, latihan konsep dasar, dan penyelesaian
 
 ## 📅 Bulan 1: Pythonic Transition, File Handling & System Automation
 
-### 🔲 Task 1: Porting Konversi Nilai & Kalkulator C ke Python
+### ✅ Task 1: Porting Konversi Nilai & Kalkulator C ke Python
 - [X] **1.1 Mini Task:** Buat fungsi `konversi_grade(nilai)` menggunakan `if-elif-else`.
 - [X] **1.2 Mini Task:** Buat fungsi `kalkulator_dasar(a, b, op)` untuk operasi dasar (`+`, `-`, `*`, `/`).
-- [ ] **1.3 Main Project:** Buat program CLI interaktif yang mengintegrasikan kedua fungsi dengan loop `while True` dan *f-strings*.
+- [X] **1.3 Main Project:** Buat program CLI interaktif yang mengintegrasikan kedua fungsi dengan loop `while True` dan *f-strings*.
 
 ### 🔲 Task 2: CLI Password Generator
 - [ ] **2.1 Mini Task:** Eksplorasi modul `random` & `string` untuk generate 8 karakter acak.
