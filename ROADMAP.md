@@ -8,7 +8,7 @@ Repository ini berisi catatan perjalanan, latihan konsep dasar, dan penyelesaian
 
 ### 🔲 Task 1: Porting Konversi Nilai & Kalkulator C ke Python
 - [X] **1.1 Mini Task:** Buat fungsi `konversi_grade(nilai)` menggunakan `if-elif-else`.
-- [ ] **1.2 Mini Task:** Buat fungsi `kalkulator_dasar(a, b, op)` untuk operasi dasar (`+`, `-`, `*`, `/`).
+- [X] **1.2 Mini Task:** Buat fungsi `kalkulator_dasar(a, b, op)` untuk operasi dasar (`+`, `-`, `*`, `/`).
 - [ ] **1.3 Main Project:** Buat program CLI interaktif yang mengintegrasikan kedua fungsi dengan loop `while True` dan *f-strings*.
 
 ### 🔲 Task 2: CLI Password Generator
