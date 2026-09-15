@@ -16,7 +16,7 @@ def pw_maker(long=10, angka=True, simbol=True):
     return pw
 
 print("Default (Huruf + Angka): ", pw_maker())
-``
+
 print("Hanya Huruf: ", pw_maker(angka=False))
 
 print("Lengkap (Huruf + Angka + Simbol): ", pw_maker(simbol=True))
