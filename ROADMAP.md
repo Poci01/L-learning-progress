@@ -11,10 +11,10 @@ Repository ini berisi catatan perjalanan, latihan konsep dasar, dan penyelesaian
 - [X] **1.2 Mini Task:** Buat fungsi `kalkulator_dasar(a, b, op)` untuk operasi dasar (`+`, `-`, `*`, `/`).
 - [X] **1.3 Main Project:** Buat program CLI interaktif yang mengintegrasikan kedua fungsi dengan loop `while True` dan *f-strings*.
 
-### 🔲 Task 2: CLI Password Generator
+### ✅ Task 2: CLI Password Generator
 - [X] **2.1 Mini Task:** Eksplorasi modul `random` & `string` untuk generate 8 karakter acak.
 - [X] **2.2 Mini Task:** Buat fungsi generator dengan opsi boolean `pakai_angka` dan `pakai_simbol`.
-- [ ] **2.3 Main Project:** Program *Password Generator CLI* interaktif dengan kustomisasi panjang password (12-32 karakter).
+- [X] **2.3 Main Project:** Program *Password Generator CLI* interaktif dengan kustomisasi panjang password (12-32 karakter).
 
 ### 🔲 Task 3: CLI Password Strength Checker
 - [ ] **3.1 Mini Task:** Buat fungsi penilai panjang string dan penghitung huruf kapital.
