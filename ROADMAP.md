@@ -17,7 +17,7 @@ Repository ini berisi catatan perjalanan, latihan konsep dasar, dan penyelesaian
 - [X] **2.3 Main Project:** Program *Password Generator CLI* interaktif dengan kustomisasi panjang password (12-32 karakter).
 
 ### 🔲 Task 3: CLI Password Strength Checker
-- [ ] **3.1 Mini Task:** Buat fungsi penilai panjang string dan penghitung huruf kapital.
+- [Half] **3.1 Mini Task:** Buat fungsi penilai panjang string dan penghitung huruf kapital.
 - [ ] **3.2 Mini Task:** Gunakan Regex / string method (`.isdigit()`, `.isupper()`) untuk deteksi simbol khusus.
 - [ ] **3.3 Main Project:** Program *Password Evaluator* yang memberikan skor (Lemah/Sedang/Kuat) beserta rekomendasi perbaikannya.
 
